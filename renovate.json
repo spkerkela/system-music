@@ -3,6 +3,8 @@
   "extends": ["config:base"],
   "packageRules": [
     {
+      "matchPackagePatterns": ["*"],
+      "ignoreTests": true,
       "automerge": true
     }
   ]
